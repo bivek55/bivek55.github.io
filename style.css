@@ -1,0 +1,145 @@
+/* Reset default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set font and background colors */
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f2f2f2;
+  }
+  
+  /* Style header and navigation */
+  header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+  }
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+  nav li {
+    margin-left: 1.5rem;
+  }
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Style hero section */
+  #hero {
+    background-image: url("hero-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+  #hero h1 {
+    color: black;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  #hero h2 {
+    color: darkgrey;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Style sections */
+  section {
+    padding: 3rem 1rem;
+  }
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  section p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  section ul {
+    list-style: none;
+  }
+  section li {
+    margin-bottom: 1.5rem;
+  }
+  section li h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  section li p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  /* Style call-to-action buttons */
+  .cta {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+  }
+  .cta:hover {
+    background-color: #555;
+  }
+  
+  /* Style form */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  input,
+  textarea {
+    padding: 0.5rem;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    width: 100%;
+  }
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  /* Style footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  footer p {
+  
